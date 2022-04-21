@@ -28,6 +28,13 @@ header {
     z-index: -1;    
 }
 
+nav {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+}
+
 .background {
     transform: translateZ(-10px) scale(2);
 }
