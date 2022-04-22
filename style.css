@@ -64,9 +64,9 @@ nav {
 }
 
 
-.background {
+/* .background {
     transform: translateZ(-10px) scale(2);
-}
+} */
 
 /* .foreground {
     transform: translatez(-3px) scale(1.5);
@@ -74,6 +74,7 @@ nav {
 
 /* .foreground  */
 .background {
+    transform: translateZ(-10px) scale(2);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -101,11 +102,12 @@ section {
 .project-container{
     border: 1px solid red;
     display:flex;
-    /* flex-direction: row; */
+    justify-content: space-evenly;
 }
 
 .project-card{
     border: 1px solid red;
+    background-color: grey;
     margin: 3px;
     height:300px;
     width: 300px;
