@@ -7,6 +7,7 @@ html {
 
 body {
     margin: 0;
+    font-family:'Rubik', sans-serif;
     /* background-color: blanchedalmond; */
 }
 
@@ -19,7 +20,7 @@ body {
 }
 
 header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -30,11 +31,11 @@ header {
 }
 
 nav {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: flex; */
     /* justify-content: space-evenly; */
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1rem; 
+    padding: 5px;
     background-color: #333;
     color: white;
 }
@@ -44,18 +45,26 @@ nav {
     justify-content: space-evenly;
 }
 .navbar-name{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px;
 }
 
 .navbar-section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 
 .nav-card{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-left: 3px;
+    margin-right: 3px;
+}   
+
+h4{
+    margin:0;
+    padding: 0;
+
 }
 
 .container{
@@ -83,7 +92,7 @@ nav {
 }
 
 .title {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 5rem;
     color: white;
     text-shadow: 0 0 5px black;
@@ -91,7 +100,7 @@ nav {
 }
 
 section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #333;
     padding: 2rem;
     text-align: center;
@@ -100,15 +109,16 @@ section {
 }
 
 .project-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display:flex;
     justify-content: space-evenly;
+    margin-top: 15px;
 }
 
 .project-card{
-    border: 1px solid red;
-    background-color: grey;
+    border: 1px solid black;
+    box-shadow: 0px 0px 30px 5px black;
     margin: 3px;
-    height:300px;
+    height: 300px;
     width: 300px;
 }
